@@ -16,6 +16,11 @@
 // The function increases each value in the array by one.
 
 
+
+function value(value,index){
+    return value * 2
+}
+
 function map(arr,fn){
     let clone = [];
     for(let i = 0; i< arr.length; i++){
@@ -24,3 +29,5 @@ function map(arr,fn){
 
     return clone;
 }
+
+console.log(map([1,2,3,4,5,6], value))
