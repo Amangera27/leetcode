@@ -8,4 +8,4 @@ function findIndex(arr,target){
     return -1;
 }
 
-console.log(findIndex([5,8,6,9],6))
+console.log(findIndex([4, 7, 9, 2], 9))
